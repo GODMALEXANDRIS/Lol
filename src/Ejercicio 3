@@ -1,0 +1,9 @@
+#########################
+echo 3 = $#
+
+if [ $# -le 0 ];
+then
+echo No hay parametro
+fi
+
+echo "Hola $#!"
