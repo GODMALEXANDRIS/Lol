@@ -1,0 +1,19 @@
+##############################
+#!bin/bash
+
+if [ $# -le 0 ];
+then
+echo "No hay parametro"
+fi
+
+M="Algo"
+Posicion=1
+
+while [ -n "$1" ]; do
+if [$Posicion -eq 1 ]; then
+MF="$M $1"
+else
+MF="$M , $1"
+fi
+echo $MF
+
