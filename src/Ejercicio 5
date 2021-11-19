@@ -1,0 +1,19 @@
+####################
+function YO() {
+
+cat << D_Y
+SYNOPSIS
+$0  N_1 [N_2] ... [N_N]
+
+if test $# - le 0;
+then
+echo "Parametroooo para cuando"
+YO
+fi
+M="Messi"
+POSICION=1
+
+while [ -n "$1" ]; do
+
+if [ $PRIMERO -eq 1 ]; then
+        M="$M $1"
