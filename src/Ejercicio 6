@@ -1,0 +1,19 @@
+############################
+function Bruh() {
+        $0 N_1 [N_2] ... [N_N]
+}
+
+if [ $# -le 0 ]; then
+echo "No hay parametro!!!!!!!!!!!"
+ Bruh
+
+fi
+
+while [ -n "$1" ]; do
+
+CONECTADO?=`quien | grep $1
+
+if [ -z "$CONECTADO?" ]; then
+echo "Usuario $1 no se encuentra aqui"
+ Bruh
+fi
